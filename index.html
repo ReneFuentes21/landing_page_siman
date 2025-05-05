@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Siman</title>
 </head>
@@ -12,38 +13,40 @@
 <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-        <img class="logo" src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746407755/LOGO-SIMAN_qtrwcv.png" alt="siman" width="170" height="45"></a>
+        <img class="logo" src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746407755/LOGO-SIMAN_qtrwcv.png" alt="siman" ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/our_team.html">Nuestro Equipo</a>
+            <a class="nav-link active text-black" aria-current="page" href="/our_team.html">Nuestro Equipo</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="/catalogo.html">Catalogo</a>
+            <a class="nav-link active text-black" href="/catalogo.html">Catalogo</a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link active" href="/about_us.html" role="button"  aria-expanded="false">Sobre Nosotros</a>
+            <a class="nav-link active text-black" href="/about_us.html" role="button"  aria-expanded="false">Sobre Nosotros</a>
         </ul>
     </div>
     </div>
 </nav>
+
 </header>
-<body>
-    <main>
-        <section class="carousel">
+<!--Imagenes en carusel-->
+<body >
+    <main class="container">
+        <section class="carousell">
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746409819/img1_r2ivg7.png" class="d-block w-100" alt="...">
+                        <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746415721/img1_rsod1l.png" class="img-carousel img-fluid mx-auto d-block w-100" alt="...">
                     </div>
                 <div class="carousel-item">
-                    <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746409880/img2_biix5i.png" class="d-block w-100" alt="...">
+                    <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746415723/img2_tucmgb.png" class="img-carousel img-fluid mx-auto d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746409882/img3_szwj2x.png" class="d-block w-100" alt="...">
+                    <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746415726/img3_hg9lzp.png" class="img-carousel img-fluid mx-auto d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -56,8 +59,75 @@
             </button>
             </div>
         </section>
-        <section></section>
+
+        <!--Tarjetas de Productos y Marcas en Descuentos-->
+        <section class="discounts">
+            <div class="card border-light" >
+                <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746411569/card1_wnfri9.png" class="img card-img img-fluid mx-auto " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ropa para Mamá</h5>
+                </div>
+            </div>
+            <div class="card" >
+                <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746411812/card2_yi52te.png" class="card-img-top img-fluid mx-auto d-block " alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Accesorios</h5>
+                    <p class="card-text">Eleva tu estilo con nuestros accesorios únicos, modernos y llenos de actitud. ¡El detalle perfecto para destacar en cualquier ocasión.</p>
+                </div>
+            </div>
+            <div class="card" >
+                <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746413719/card3_oqpbqt.png" class="card-img-top img-fluid mx-auto d-block" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Audífonos</h5>
+                    <p class="card-text">Disfrutá un sonido envolvente con estilo y comodidad. Nuestros audífonos son el complemento ideal para tu día a día</p>
+                </div>
+            </div>
+            <div class="card" >
+                <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746415398/card4_qinbcf.png" class="card-img-top img-fluid mx-auto d-block" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Planchas,secadoras y más</h5>
+                    <p class="card-text">Lográ un look perfecto todos los días. Nuestras planchas y secadores cuidan tu cabello mientras te dan un acabado profesional</p>
+                </div>
+            </div>
+            <div class="card" >
+                <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746415404/card5_idggnu.png" class="card-img-top img-fluid mx-auto d-block" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Decoraciones</h5>
+                    <p class="card-text">Dale vida a tus espacios con nuestras decoraciones únicas. Estilo, calidez y personalidad en cada rincón de tu hogar</p>
+                </div>
+            </div>
+        </section>
     </main>
+    
+    <!-- Pie de Pagina personalizado -->
+    <footer class=" text-black mt-3 p-5 row g-0">
+        <div class="col-md-4">
+            <img src="https://res.cloudinary.com/dsuvn60qy/image/upload/v1746407755/LOGO-SIMAN_qtrwcv.png" alt="" class="img-fluid">
+        </div>
+        <!-- Formas de Contacto-->
+        <div class="col-md-4 text-black">
+            <h4>Contacto</h4>
+            <div>
+                <p><strong>Direccion: </strong> El Salvador</p>
+            </div>
+            <div class="text-black">
+                <p><strong>Correo: </strong> contacto@siman.com</p>
+            </div>
+            <div class="text-black">
+                <p><strong>Telefono: </strong> 2298-3777</p>
+            </div>
+        </div>
+        <div class="col-md-4 text-black">
+            <h4>Redes Sociales</h4>
+            <div>
+                <!-- Redes Sociales -->
+                <a href="https://www.facebook.com/simanelsalvador" class="text-black p-2"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.youtube.com/user/SimanElSalvador/" class="text-black p-2"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.instagram.com/almacenessiman_sv/" class="text-black p-2"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>   
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
+
 </html>
