@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    background-color: rgba(169, 29, 29, 0.631);
+    padding: 0px 1px;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
